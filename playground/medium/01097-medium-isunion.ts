@@ -20,7 +20,10 @@
 
 /* _____________ Your Code Here _____________ */
 
-type IsUnion<T> = any
+type IsUnion<T, C extends T = T> = (T extends any ? C extends T ? true : false : never) extends true ? false : true;
+
+type r<T, S> = [T] extends [S] ? false : true
+type r1 = r<string | number, string | number> // false
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
