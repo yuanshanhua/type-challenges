@@ -57,5 +57,6 @@
     "jsonc",
     "yaml",
     "toml"
-  ]
+  ],
+  "commentTranslate.multiLineMerge": true
 }
