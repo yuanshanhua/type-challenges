@@ -5,7 +5,7 @@
 
   ### Question
 
-  Implement ```BitwiseXOR<S1,S2>``` which takes two binary string literal type and returns a binary string that reprents the bitwise XOR of S1 and S2
+  Implement ```BitwiseXOR<S1,S2>``` which takes two binary string literal type and returns a binary string that represents the bitwise XOR of S1 and S2
 
   For example:
 

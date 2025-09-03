@@ -10,7 +10,7 @@
   For example:
 
   ```ts
-  type Trimed = TrimRight<'   Hello World    '> // expected to be '   Hello World'
+  type Trimmed = TrimRight<'   Hello World    '> // expected to be '   Hello World'
   ```
 
   > View on GitHub: https://tsch.js.org/4803

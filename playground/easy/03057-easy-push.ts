@@ -29,6 +29,13 @@ type cases = [
   Expect<Equal<Push<['1', 2, '3'], boolean>, ['1', 2, '3', boolean]>>,
 ]
 
+type errors = [
+  // @ts-expect-error
+  Expect<Equal<Push<number[], string>, string[]>>,
+  // @ts-expect-error
+  Expect<Equal<Push<string[], number>, [string, number]>>,
+]
+
 /* _____________ Further Steps _____________ */
 /*
   > Share your solutions: https://tsch.js.org/3057/answer

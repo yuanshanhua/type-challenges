@@ -51,7 +51,7 @@ type cases = [
   // Bonus: Recursion
   Expect<Equal<Unbox<() => Promise<() => Array<Promise<boolean>>>>, boolean>>,
 
-  // Bonus: Recusion levels
+  // Bonus: Recursion levels
   Expect<Equal<Unbox<() => () => () => () => number, 0>, number>>,
   Expect<Equal<Unbox<() => () => () => () => number, 1>, () => () => () => number>>,
   Expect<Equal<Unbox<() => () => () => () => number, 2>, () => () => number>>,

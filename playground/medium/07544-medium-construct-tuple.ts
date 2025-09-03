@@ -10,7 +10,7 @@
   For example
 
   ```ts
-  type result = ConstructTuple<2> // expect to be [unknown, unkonwn]
+  type result = ConstructTuple<2> // expect to be [unknown, unknown]
   ```
 
   > View on GitHub: https://tsch.js.org/7544
